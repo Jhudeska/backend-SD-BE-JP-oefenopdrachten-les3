@@ -1,5 +1,8 @@
 package nl.novi.opdrachten.methodes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Schrijf een methode  die een List<Integer> ontvangt.
  *
@@ -11,4 +14,23 @@ package nl.novi.opdrachten.methodes;
  *
  */
 public class HoogsteGetalAbstract {
+
+
+
+    public void hoogsteGetalAbstract () {
+
+        int hoogsteGetal = 0;
+        List<Integer> numbers = new ArrayList<>();
+        numbers.add(34);
+        numbers.add(5);
+        numbers.add(50);
+
+
+        for(Integer num : numbers ){
+
+        }
+//        if ( hoogsteGetal){
+//            System.out.println("Het hoogste getal van de gegeven getallen is:" + hoogsteGetal);
+//        }
+    }
 }

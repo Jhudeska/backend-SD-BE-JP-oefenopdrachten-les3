@@ -24,5 +24,12 @@ public class Korting {
         "De klant krijgt 16% korting. Het aankoopbedrag is nu: -HIER HET BEDRAG MET KORTING-"
          */
 
+        if(aankoopBedrag >= 300.01){
+            System.out.println("De klant krijgt 16% korting. Het aankoopbedrag is nu: " + aankoopBedrag * 0.84);
+        } else if( aankoopBedrag > 75) {
+            System.out.println("De klant krijgt 10% korting. Het aankoopbedrag is nu: " + aankoopBedrag * 0.9);
+        }else {
+            System.out.println("De klant krijgt geen korting. Het aankoopbedrag blijft " + aankoopBedrag );
+        }
     }
 }
