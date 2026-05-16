@@ -10,7 +10,7 @@ public class Staatslot {
         int gegevenLeeftijd = gebruikersInput.nextInt();
 
         // Maak hieronder een beslissingsstructuur (if/else).
-        if(gegevenLeeftijd  > 17){
+        if(gegevenLeeftijd  >= 17){
             System.out.println("U mag een staatslot kopen");
         }else {
             System.out.println("Jij mag geen staatslot kopen.");
