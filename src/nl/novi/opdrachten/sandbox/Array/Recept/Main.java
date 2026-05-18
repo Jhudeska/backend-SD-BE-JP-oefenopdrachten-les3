@@ -1,4 +1,4 @@
-package nl.novi.opdrachten.sandbox.Array;
+package nl.novi.opdrachten.sandbox.Array.Recept;
 
 public class Main {
 
